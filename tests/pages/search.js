@@ -1,4 +1,4 @@
-import searchObjects from "../pageObjects/searchobjects.js";
+import searchObjects from "../pageObjects/searchObjects.js";
 
 export default class Search {
   constructor(page) {
