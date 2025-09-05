@@ -1,7 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","11256","get started link","firefox","Thu Sep 04 18:42:33 BDT 2025","passed","Thu Sep 04 18:42:44 BDT 2025","","example.spec.js","",""
-"","11758","has title","firefox","Thu Sep 04 18:42:33 BDT 2025","passed","Thu Sep 04 18:42:45 BDT 2025","","example.spec.js","",""
-"","7996","get started link","chromium","Thu Sep 04 18:42:33 BDT 2025","passed","Thu Sep 04 18:42:41 BDT 2025","","example.spec.js","",""
-"","10885","has title","webkit","Thu Sep 04 18:42:33 BDT 2025","passed","Thu Sep 04 18:42:44 BDT 2025","","example.spec.js","",""
-"","12261","get started link","webkit","Thu Sep 04 18:42:33 BDT 2025","passed","Thu Sep 04 18:42:45 BDT 2025","","example.spec.js","",""
-"","5212","has title","chromium","Thu Sep 04 18:42:33 BDT 2025","passed","Thu Sep 04 18:42:38 BDT 2025","","example.spec.js","",""
+"","48085","Should able to click with Coureses text","chromium","Fri Sep 05 06:05:18 BDT 2025","passed","Fri Sep 05 06:06:06 BDT 2025","ilearnx site search feature","search.spec.js","",""

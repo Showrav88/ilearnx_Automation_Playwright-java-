@@ -6,7 +6,7 @@ import { defineConfig, devices } from '@playwright/test';
  * Docs: https://playwright.dev/docs/test-configuration
  */
 export default defineConfig({
-  testDir: './tests',
+  testDir: './tests/specs',
 
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -33,6 +33,10 @@ export default defineConfig({
 
     /* Collect trace when retrying failed tests */
     trace: 'on-first-retry',
+
+    /* Global timeouts */
+    actionTimeout: 50000,        // 50s for clicks, fill, etc.
+    navigationTimeout: 70000     // 70s for page.goto and navigation
   },
 
   /* Browser projects */
@@ -41,30 +45,13 @@ export default defineConfig({
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
-    },
-    // Uncomment below to test mobile devices or branded browsers
     // {
-    //   name: 'Mobile Chrome',
-    //   use: { ...devices['Pixel 5'] },
+    //   name: 'firefox',
+    //   use: { ...devices['Desktop Firefox'] },
     // },
     // {
-    //   name: 'Mobile Safari',
-    //   use: { ...devices['iPhone 12'] },
-    // },
-    // {
-    //   name: 'Microsoft Edge',
-    //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
-    // },
-    // {
-    //   name: 'Google Chrome',
-    //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
+    //   name: 'webkit',
+    //   use: { ...devices['Desktop Safari'] },
     // },
   ],
 
