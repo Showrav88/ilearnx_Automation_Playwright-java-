@@ -1,0 +1,255 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e8]:
+    - generic [ref=e11]:
+      - link "logo" [ref=e14] [cursor=pointer]:
+        - /url: /index.php
+        - img "logo" [ref=e15] [cursor=pointer]
+      - generic [ref=e18]:
+        - generic [ref=e19]: 
+        - link "Live Chat +880 1797-174090" [ref=e21] [cursor=pointer]:
+          - /url: https://wa.me/+8801797174090
+          - generic [ref=e22] [cursor=pointer]: Live Chat
+          - paragraph [ref=e23] [cursor=pointer]: +880 1797-174090
+      - generic [ref=e26]:
+        - generic [ref=e27]: 
+        - link "E-mail info@ileranx.live" [ref=e29] [cursor=pointer]:
+          - /url: mailto:info@ilearnx.live?cc=ilearnx.live@gmail.com
+          - generic [ref=e30] [cursor=pointer]: E-mail
+          - text: info@ileranx.live
+    - generic [ref=e33]:
+      - text: 
+      - navigation [ref=e34]:
+        - list [ref=e35]:
+          - listitem [ref=e36]:
+            - link "Home" [ref=e37] [cursor=pointer]:
+              - /url: ./index.php
+          - listitem [ref=e38]:
+            - link "Skills" [ref=e39] [cursor=pointer]:
+              - /url: ./view/courses.php?ccat=*
+              - text: Skills
+              - generic [ref=e40] [cursor=pointer]: 
+          - listitem [ref=e41]:
+            - link "Courses" [ref=e42] [cursor=pointer]:
+              - /url: ./view/courses.php
+          - listitem [ref=e43]:
+            - link "Live Courses" [ref=e44] [cursor=pointer]:
+              - /url: ./view/LiveCourses.php
+          - listitem [ref=e45]:
+            - link "Internships" [ref=e46] [cursor=pointer]:
+              - /url: ./view/internship.php
+              - text: Internships
+              - generic [ref=e47] [cursor=pointer]: 
+          - listitem [ref=e48]:
+            - link "About" [ref=e49] [cursor=pointer]:
+              - /url: ./view/about.php
+      - generic [ref=e50]:
+        - button "Signup | Login" [ref=e51] [cursor=pointer]:
+          - text: Signup | Login
+          - generic [ref=e52] [cursor=pointer]: 
+        - generic [ref=e54] [cursor=pointer]: 
+  - generic [ref=e57]:
+    - generic [ref=e59]:
+      - text: 
+      - combobox [ref=e60]:
+        - option "All Category" [selected]
+        - option "Animation"
+        - option "Game Development"
+        - option "Robotics"
+        - option "Web Development"
+        - option "Software Quality Assurance"
+        - option "SQL"
+        - option "Digital Marketing"
+        - option "Graphics Designing"
+        - option "Professional Photography"
+        - option "Professional cinematography"
+        - option "Job Preparation"
+        - option "Abroad preparation"
+        - option "Software and tool"
+        - option "Others"
+        - option "Programming"
+        - 'option "English Medium: A Level"'
+        - 'option "English Medium: O Level"'
+        - option "Personal Skills Development"
+    - textbox "Course Keywords..." [ref=e63]
+    - button "Search Courses" [ref=e66] [cursor=pointer]:
+      - generic [ref=e67] [cursor=pointer]: 
+      - text: Search Courses
+  - generic [ref=e70]:
+    - generic [ref=e71]: LATEST COURSES
+    - link "View All Courses " [ref=e72] [cursor=pointer]:
+      - /url: ./view/courses.php
+      - text: View All Courses
+      - generic [ref=e73] [cursor=pointer]: 
+  - generic [ref=e77]: MEET OUR EXPERT INSTRUCTORS
+  - generic [ref=e79]:
+    - generic [ref=e80]:
+      - generic [ref=e81]: OUR FREE COURSES
+      - link "Other Free Courses " [ref=e82] [cursor=pointer]:
+        - /url: ./view/freeCourses.php
+        - text: Other Free Courses
+        - generic [ref=e83] [cursor=pointer]: 
+    - generic [ref=e84]:
+      - generic [ref=e86] [cursor=pointer]:
+        - generic [ref=e87] [cursor=pointer]:
+          - link "" [ref=e88] [cursor=pointer]:
+            - /url: ./view/course.php?cid=C15309
+            - generic: 
+          - generic [ref=e89] [cursor=pointer]: Free
+          - generic:
+            - link:
+              - /url: ./view/SingleTeacherDetails.php?iid=I766
+        - generic [ref=e90] [cursor=pointer]:
+          - link "Shafin Talukder (Nill)" [ref=e92] [cursor=pointer]:
+            - /url: ./view/SingleTeacherDetails.php?iid=I766
+          - heading "Microsoft Office (Word, PowerPoint, Excel) for School and College" [level=4] [ref=e93] [cursor=pointer]:
+            - link "Microsoft Office (Word, PowerPoint, Excel) for School and College" [ref=e94] [cursor=pointer]:
+              - /url: ./view/course.php?cid=C15309
+        - generic [ref=e95] [cursor=pointer]:
+          - paragraph [ref=e96] [cursor=pointer]: This course teaches the basics of Microsoft Office Tools - MS Word, Excel and Power Point. After completing the course, you will be able...
+          - link "View Now" [ref=e97] [cursor=pointer]:
+            - /url: ./view/course.php?cid=C15309
+      - generic [ref=e99]:
+        - generic [ref=e101] [cursor=pointer]:
+          - generic [ref=e102] [cursor=pointer]:
+            - link "" [ref=e103] [cursor=pointer]:
+              - /url: ./view/course.php?cid=C16908
+              - generic: 
+            - generic [ref=e104] [cursor=pointer]: Free
+            - generic:
+              - link:
+                - /url: ./view/SingleTeacherDetails.php?iid=I766
+            - link:
+              - /url: ./view/SingleTeacherDetails.php?iid=I766
+          - link:
+            - /url: ./view/SingleTeacherDetails.php?iid=I766
+          - generic [ref=e105] [cursor=pointer]:
+            - link:
+              - /url: ./view/SingleTeacherDetails.php?iid=I766
+            - link "Shafin Talukder (Nill)" [ref=e106] [cursor=pointer]:
+              - /url: ./view/SingleTeacherDetails.php?iid=I766
+            - heading "Video Recording with OBS" [level=4] [ref=e107] [cursor=pointer]:
+              - link "Video Recording with OBS" [ref=e108] [cursor=pointer]:
+                - /url: ./view/course.php?cid=C16908
+          - link "View Now" [ref=e110] [cursor=pointer]:
+            - /url: ./view/course.php?cid=C16908
+        - generic [ref=e112] [cursor=pointer]:
+          - generic [ref=e113] [cursor=pointer]:
+            - link "" [ref=e114] [cursor=pointer]:
+              - /url: ./view/course.php?cid=C16510
+              - generic: 
+            - generic [ref=e115] [cursor=pointer]: Free
+            - generic:
+              - link:
+                - /url: ./view/SingleTeacherDetails.php?iid=I407
+            - link:
+              - /url: ./view/SingleTeacherDetails.php?iid=I407
+          - link:
+            - /url: ./view/SingleTeacherDetails.php?iid=I407
+          - generic [ref=e116] [cursor=pointer]:
+            - link:
+              - /url: ./view/SingleTeacherDetails.php?iid=I407
+            - link "Shajaratul Yakin" [ref=e117] [cursor=pointer]:
+              - /url: ./view/SingleTeacherDetails.php?iid=I407
+            - heading "Create video lession using Loom Desktop" [level=4] [ref=e118] [cursor=pointer]:
+              - link "Create video lession using Loom Desktop" [ref=e119] [cursor=pointer]:
+                - /url: ./view/course.php?cid=C16510
+          - link "View Now" [ref=e121] [cursor=pointer]:
+            - /url: ./view/course.php?cid=C16510
+  - generic [ref=e123]:
+    - heading "ACHEIVEMENTS" [level=2] [ref=e125]
+    - generic [ref=e126]:
+      - generic [ref=e128]:
+        - heading "Vistior's Loading..." [level=2] [ref=e129]
+        - heading "visitors" [level=4] [ref=e130]
+      - generic [ref=e132]:
+        - heading "1790" [level=2] [ref=e133]
+        - heading "STUDENTS" [level=4] [ref=e134]
+      - generic [ref=e136]:
+        - heading "10" [level=2] [ref=e137]
+        - heading "COURSES" [level=4] [ref=e138]
+      - generic [ref=e140]:
+        - heading "16" [level=2] [ref=e141]
+        - heading "instructors" [level=4] [ref=e142]
+  - generic [ref=e145]: Internship offering Companies
+  - contentinfo [ref=e149]:
+    - generic [ref=e150]:
+      - generic [ref=e152]:
+        - generic [ref=e153]: 
+        - heading "Address" [level=4] [ref=e154]
+        - paragraph [ref=e155]:
+          - text: "Registered Office : 179, Shah Kabir Mazar Road, Uttar Khan, Dhaka 1230"
+          - text: "Head Office : House 14, Road 13, Sector 03, Uttara Model Town, Dhaka 1230"
+      - generic [ref=e157]:
+        - link "logo":
+          - /url: ../index.php
+          - img "logo"
+        - heading "iLearnX Technologies" [level=4] [ref=e158]
+        - generic [ref=e159]:
+          - link "About us" [ref=e160] [cursor=pointer]:
+            - /url: /view/about.php
+          - link "Terms and Conditions" [ref=e161] [cursor=pointer]:
+            - /url: /view/TermsAndConditions.php
+          - link "Privacy Policy" [ref=e162] [cursor=pointer]:
+            - /url: /view/PrivacyPolicy.php
+          - link "Refund Policy" [ref=e163] [cursor=pointer]:
+            - /url: /view/RefundPolicy.php
+      - generic [ref=e165]:
+        - generic [ref=e166]: 
+        - heading "Contact Us" [level=4] [ref=e167]
+        - paragraph [ref=e168]:
+          - link [ref=e169] [cursor=pointer]:
+            - /url: https://wa.me/+8801797174090
+            - generic [ref=e170] [cursor=pointer]: 
+          - link [ref=e171] [cursor=pointer]:
+            - /url: https://www.facebook.com/ilearnx.live
+            - generic [ref=e172] [cursor=pointer]: 
+          - link [ref=e173] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/ilearnx-technologies
+            - generic [ref=e174] [cursor=pointer]: 
+          - link "info@ilearnx.live" [ref=e175] [cursor=pointer]:
+            - /url: mailto:info@ilearnx.live?cc=ilearnx.live@gmail.com
+          - link "ilearnx.live@gmail.com" [ref=e176] [cursor=pointer]:
+            - /url: mailto:ilearnx.live@gmail.com?cc=ilearnx.live@gmail.com
+    - generic [ref=e178]:
+      - generic [ref=e179]: "Trade License: TRAD/DNCC/018559/2023"
+      - paragraph [ref=e181]:
+        - text: © 2023
+        - link "iLearnX" [ref=e182] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e183] [cursor=pointer]: iLearnX
+        - text: . All Rights Reserved.
+  - text: 
+  - navigation [ref=e184]:
+    - generic [ref=e186] [cursor=pointer]: x
+    - link "logo" [ref=e188] [cursor=pointer]:
+      - /url: ./index.php
+      - img "logo"
+    - list [ref=e189]:
+      - listitem [ref=e190]:
+        - link "Home" [ref=e191] [cursor=pointer]:
+          - /url: ../ilearnx/index.php
+      - listitem [ref=e192]:
+        - text: 
+        - link "Skills" [ref=e193] [cursor=pointer]:
+          - /url: ./view/courses.php?ccat=*
+      - listitem [ref=e194]:
+        - link "Courses" [ref=e195] [cursor=pointer]:
+          - /url: ./view/courses.php
+      - listitem [ref=e196]:
+        - link "Live Courses" [ref=e197] [cursor=pointer]:
+          - /url: ./view/LiveCourses.php
+      - listitem [ref=e198]:
+        - text: 
+        - link "Internships" [ref=e199] [cursor=pointer]:
+          - /url: ./view/internship.php
+      - listitem [ref=e200]:
+        - link "About Us" [ref=e201] [cursor=pointer]:
+          - /url: ./view/about.php
+  - text: 
+  - link "" [ref=e202] [cursor=pointer]:
+    - /url: https://wa.me/+8801797174090
+    - generic [ref=e203] [cursor=pointer]: 
+```

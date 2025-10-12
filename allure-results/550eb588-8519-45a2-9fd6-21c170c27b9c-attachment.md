@@ -1,0 +1,388 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e6]:
+      - link "logo" [ref=e9] [cursor=pointer]:
+        - /url: /index.php
+        - img "logo" [ref=e10] [cursor=pointer]
+      - generic [ref=e13]:
+        - generic [ref=e14]: 
+        - link "Live Chat +880 1797-174090" [ref=e16] [cursor=pointer]:
+          - /url: https://wa.me/+8801797174090
+          - generic [ref=e17] [cursor=pointer]: Live Chat
+          - paragraph [ref=e18] [cursor=pointer]: +880 1797-174090
+      - generic [ref=e21]:
+        - generic [ref=e22]: 
+        - link "E-mail info@ileranx.live" [ref=e24] [cursor=pointer]:
+          - /url: mailto:info@ilearnx.live?cc=ilearnx.live@gmail.com
+          - generic [ref=e25] [cursor=pointer]: E-mail
+          - text: info@ileranx.live
+    - generic [ref=e28]:
+      - text: 
+      - navigation [ref=e29]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Home" [ref=e32] [cursor=pointer]:
+              - /url: ../index.php
+          - listitem [ref=e33]:
+            - link "Skills" [ref=e34] [cursor=pointer]:
+              - /url: ./courses.php?ccat=*
+              - text: Skills
+              - generic [ref=e35] [cursor=pointer]: 
+            - text: 
+          - listitem [ref=e36]:
+            - link "Courses" [ref=e37] [cursor=pointer]:
+              - /url: ./courses.php
+          - listitem [ref=e38]:
+            - link "Live Courses" [ref=e39] [cursor=pointer]:
+              - /url: ./LiveCourses.php
+          - listitem [ref=e40]:
+            - link "Internships" [ref=e41] [cursor=pointer]:
+              - /url: ./internship.php
+              - text: Internships
+              - generic [ref=e42] [cursor=pointer]: 
+            - text: 
+          - listitem [ref=e43]:
+            - link "About" [ref=e44] [cursor=pointer]:
+              - /url: ./about.php
+      - generic [ref=e45]:
+        - button "Signup | Login" [ref=e46] [cursor=pointer]:
+          - text: Signup | Login
+          - generic [ref=e47] [cursor=pointer]: 
+        - generic [ref=e49] [cursor=pointer]: 
+  - generic [ref=e51]:
+    - heading "OUR COURSES" [level=2] [ref=e53]
+    - generic [ref=e54]:
+      - button "ALL" [ref=e55] [cursor=pointer]
+      - button "Animation" [ref=e56] [cursor=pointer]
+      - button "Game Development" [ref=e57] [cursor=pointer]
+      - button "Robotics" [ref=e58] [cursor=pointer]
+      - button "Web Development" [ref=e59] [cursor=pointer]
+      - button "Software Quality Assurance" [ref=e60] [cursor=pointer]
+      - button "SQL" [ref=e61] [cursor=pointer]
+      - button "Digital Marketing" [ref=e62] [cursor=pointer]
+      - button "Graphics Designing" [ref=e63] [cursor=pointer]
+      - button "Professional Photography" [ref=e64] [cursor=pointer]
+      - button "Professional cinematography" [ref=e65] [cursor=pointer]
+      - button "Job Preparation" [ref=e66] [cursor=pointer]
+      - button "Abroad preparation" [ref=e67] [cursor=pointer]
+      - button "Software and tool" [ref=e68] [cursor=pointer]
+      - button "Others" [ref=e69] [cursor=pointer]
+      - button "Programming" [ref=e70] [cursor=pointer]
+      - 'button "English Medium: A Level" [ref=e71] [cursor=pointer]'
+      - 'button "English Medium: O Level" [ref=e72] [cursor=pointer]'
+      - button "Personal Skills Development" [ref=e73] [cursor=pointer]
+    - generic [ref=e74]:
+      - generic [ref=e75] [cursor=pointer]:
+        - link:
+          - /url: course.php?cid=C4769
+        - generic [ref=e76] [cursor=pointer]:
+          - link "BDT 299" [ref=e77] [cursor=pointer]:
+            - /url: course.php?cid=C4769
+            - paragraph [ref=e79] [cursor=pointer]:
+              - text: BDT
+              - generic [ref=e80] [cursor=pointer]: "299"
+          - generic [ref=e81] [cursor=pointer]:
+            - link:
+              - /url: course.php?cid=C4769
+            - generic [ref=e82] [cursor=pointer]:
+              - link:
+                - /url: course.php?cid=C4769
+              - 'heading "C4769 : Web Development LIVE Bootcamp With PHP" [level=4] [ref=e83] [cursor=pointer]':
+                - link:
+                  - /url: course.php?cid=C4769
+                - 'link "C4769 : Web Development LIVE Bootcamp With PHP" [ref=e84] [cursor=pointer]':
+                  - /url: course.php?cid=C4769
+              - paragraph [ref=e85] [cursor=pointer]: Master the fundamentals of web development and bring your website ideas to life!This...
+              - text: "Instructor : API ALAM APU"
+              - text: "Medium of instruction : Bangla"
+          - link "View Course" [ref=e88] [cursor=pointer]:
+            - /url: course.php?cid=C4769
+      - generic [ref=e89] [cursor=pointer]:
+        - link:
+          - /url: course.php?cid=C10868
+        - generic [ref=e90] [cursor=pointer]:
+          - link "BDT 300" [ref=e91] [cursor=pointer]:
+            - /url: course.php?cid=C10868
+            - paragraph [ref=e93] [cursor=pointer]:
+              - text: BDT
+              - generic [ref=e94] [cursor=pointer]: "300"
+          - generic [ref=e95] [cursor=pointer]:
+            - link:
+              - /url: course.php?cid=C10868
+            - generic [ref=e96] [cursor=pointer]:
+              - link:
+                - /url: course.php?cid=C10868
+              - 'heading "C10868 : Python Beginner to Advanced" [level=4] [ref=e97] [cursor=pointer]':
+                - link:
+                  - /url: course.php?cid=C10868
+                - 'link "C10868 : Python Beginner to Advanced" [ref=e98] [cursor=pointer]':
+                  - /url: course.php?cid=C10868
+              - paragraph [ref=e99] [cursor=pointer]: "Mastering Python: An Advanced Learning Course Description: Embark on a transformative journey into the depths..."
+              - text: "Instructor : Mursalin Khan"
+              - text: "Medium of instruction : Bangla"
+          - link "View Course" [ref=e102] [cursor=pointer]:
+            - /url: course.php?cid=C10868
+      - generic [ref=e103] [cursor=pointer]:
+        - link:
+          - /url: course.php?cid=C10252
+        - generic [ref=e104] [cursor=pointer]:
+          - link "BDT 249" [ref=e105] [cursor=pointer]:
+            - /url: course.php?cid=C10252
+            - paragraph [ref=e107] [cursor=pointer]:
+              - text: BDT
+              - generic [ref=e108] [cursor=pointer]: "249"
+          - generic [ref=e109] [cursor=pointer]:
+            - link:
+              - /url: course.php?cid=C10252
+            - generic [ref=e110] [cursor=pointer]:
+              - link:
+                - /url: course.php?cid=C10252
+              - 'heading "C10252 : Python for O Level" [level=4] [ref=e111] [cursor=pointer]':
+                - link:
+                  - /url: course.php?cid=C10252
+                - 'link "C10252 : Python for O Level" [ref=e112] [cursor=pointer]':
+                  - /url: course.php?cid=C10252
+              - paragraph [ref=e113] [cursor=pointer]: Python is a popular general purpose, high-level, interpreted, easy to learn programming language....
+              - text: "Instructor : Shafin Talukder (Nill)"
+              - text: "Medium of instruction : English"
+          - link "View Course" [ref=e116] [cursor=pointer]:
+            - /url: course.php?cid=C10252
+      - generic [ref=e117] [cursor=pointer]:
+        - link:
+          - /url: course.php?cid=C13706
+        - generic [ref=e118] [cursor=pointer]:
+          - link "BDT 99" [ref=e119] [cursor=pointer]:
+            - /url: course.php?cid=C13706
+            - paragraph [ref=e121] [cursor=pointer]:
+              - text: BDT
+              - generic [ref=e122] [cursor=pointer]: "99"
+          - generic [ref=e123] [cursor=pointer]:
+            - link:
+              - /url: course.php?cid=C13706
+            - generic [ref=e124] [cursor=pointer]:
+              - link:
+                - /url: course.php?cid=C13706
+              - 'heading "C13706 : CV/Resume Basic Tricks" [level=4] [ref=e125] [cursor=pointer]':
+                - link:
+                  - /url: course.php?cid=C13706
+                - 'link "C13706 : CV/Resume Basic Tricks" [ref=e126] [cursor=pointer]':
+                  - /url: course.php?cid=C13706
+              - paragraph [ref=e127] [cursor=pointer]: This course highlights the common mistakes and formats that we follow. The course...
+              - text: "Instructor : Shafin Talukder (Nill)"
+              - text: "Medium of instruction : Bangla"
+          - link "View Course" [ref=e130] [cursor=pointer]:
+            - /url: course.php?cid=C13706
+      - generic [ref=e131] [cursor=pointer]:
+        - link:
+          - /url: course.php?cid=C15309
+        - generic [ref=e132] [cursor=pointer]:
+          - link "Free" [ref=e133] [cursor=pointer]:
+            - /url: course.php?cid=C15309
+            - paragraph [ref=e135] [cursor=pointer]:
+              - generic [ref=e136] [cursor=pointer]: Free
+          - generic [ref=e137] [cursor=pointer]:
+            - link:
+              - /url: course.php?cid=C15309
+            - generic [ref=e138] [cursor=pointer]:
+              - link:
+                - /url: course.php?cid=C15309
+              - 'heading "C15309 : Microsoft Office (Word, PowerPoint, Excel) for School and College" [level=4] [ref=e139] [cursor=pointer]':
+                - link:
+                  - /url: course.php?cid=C15309
+                - 'link "C15309 : Microsoft Office (Word, PowerPoint, Excel) for School and College" [ref=e140] [cursor=pointer]':
+                  - /url: course.php?cid=C15309
+              - paragraph [ref=e141] [cursor=pointer]: This course teaches the basics of Microsoft Office Tools - MS Word,...
+              - text: "Instructor : Shafin Talukder (Nill)"
+              - text: "Medium of instruction : Bangla"
+          - link "View Course" [ref=e144] [cursor=pointer]:
+            - /url: course.php?cid=C15309
+      - generic [ref=e145] [cursor=pointer]:
+        - link:
+          - /url: course.php?cid=C11018
+        - generic [ref=e146] [cursor=pointer]:
+          - link "BDT 299" [ref=e147] [cursor=pointer]:
+            - /url: course.php?cid=C11018
+            - paragraph [ref=e149] [cursor=pointer]:
+              - text: BDT
+              - generic [ref=e150] [cursor=pointer]: "299"
+          - generic [ref=e151] [cursor=pointer]:
+            - link:
+              - /url: course.php?cid=C11018
+            - generic [ref=e152] [cursor=pointer]:
+              - link:
+                - /url: course.php?cid=C11018
+              - 'heading "C11018 : Photography for Beginners: A Complete Guide to Taking Amazing Photos" [level=4] [ref=e153] [cursor=pointer]':
+                - link:
+                  - /url: course.php?cid=C11018
+                - 'link "C11018 : Photography for Beginners: A Complete Guide to Taking Amazing Photos" [ref=e154] [cursor=pointer]':
+                  - /url: course.php?cid=C11018
+              - paragraph [ref=e155] [cursor=pointer]: Welcome to the Beginner's Photography Course! - Immersive and hands-on learning experience. -...
+              - text: "Instructor : Shajaratul Yakin"
+              - text: "Medium of instruction : Bangla"
+          - link "View Course" [ref=e158] [cursor=pointer]:
+            - /url: course.php?cid=C11018
+      - generic [ref=e159] [cursor=pointer]:
+        - link:
+          - /url: course.php?cid=C1576
+        - generic [ref=e160] [cursor=pointer]:
+          - link "BDT 175" [ref=e161] [cursor=pointer]:
+            - /url: course.php?cid=C1576
+            - paragraph [ref=e163] [cursor=pointer]:
+              - text: BDT
+              - generic [ref=e164] [cursor=pointer]: "175"
+          - generic [ref=e165] [cursor=pointer]:
+            - link:
+              - /url: course.php?cid=C1576
+            - generic [ref=e166] [cursor=pointer]:
+              - link:
+                - /url: course.php?cid=C1576
+              - 'heading "C1576 : Animation Basics with Blender" [level=4] [ref=e167] [cursor=pointer]':
+                - link:
+                  - /url: course.php?cid=C1576
+                - 'link "C1576 : Animation Basics with Blender" [ref=e168] [cursor=pointer]':
+                  - /url: course.php?cid=C1576
+              - paragraph [ref=e169] [cursor=pointer]: The course is designed to learn the very basics of the Animation tool...
+              - text: "Instructor : Shafin Talukder (Nill)"
+              - text: "Medium of instruction : English"
+          - link "View Course" [ref=e172] [cursor=pointer]:
+            - /url: course.php?cid=C1576
+      - generic [ref=e173] [cursor=pointer]:
+        - link:
+          - /url: course.php?cid=C16908
+        - generic [ref=e174] [cursor=pointer]:
+          - link "Free" [ref=e175] [cursor=pointer]:
+            - /url: course.php?cid=C16908
+            - paragraph [ref=e177] [cursor=pointer]:
+              - generic [ref=e178] [cursor=pointer]: Free
+          - generic [ref=e179] [cursor=pointer]:
+            - link:
+              - /url: course.php?cid=C16908
+            - generic [ref=e180] [cursor=pointer]:
+              - link:
+                - /url: course.php?cid=C16908
+              - 'heading "C16908 : Video Recording with OBS" [level=4] [ref=e181] [cursor=pointer]':
+                - link:
+                  - /url: course.php?cid=C16908
+                - 'link "C16908 : Video Recording with OBS" [ref=e182] [cursor=pointer]':
+                  - /url: course.php?cid=C16908
+              - paragraph [ref=e183] [cursor=pointer]: This course will help you to learn the perimeters of OBS and how...
+              - text: "Instructor : Shafin Talukder (Nill)"
+              - text: "Medium of instruction : Bangla"
+          - link "View Course" [ref=e186] [cursor=pointer]:
+            - /url: course.php?cid=C16908
+      - generic [ref=e187] [cursor=pointer]:
+        - link:
+          - /url: course.php?cid=C16510
+        - generic [ref=e188] [cursor=pointer]:
+          - link "Free" [ref=e189] [cursor=pointer]:
+            - /url: course.php?cid=C16510
+            - paragraph [ref=e191] [cursor=pointer]:
+              - generic [ref=e192] [cursor=pointer]: Free
+          - generic [ref=e193] [cursor=pointer]:
+            - link:
+              - /url: course.php?cid=C16510
+            - generic [ref=e194] [cursor=pointer]:
+              - link:
+                - /url: course.php?cid=C16510
+              - 'heading "C16510 : Create video lession using Loom Desktop" [level=4] [ref=e195] [cursor=pointer]':
+                - link:
+                  - /url: course.php?cid=C16510
+                - 'link "C16510 : Create video lession using Loom Desktop" [ref=e196] [cursor=pointer]':
+                  - /url: course.php?cid=C16510
+              - paragraph [ref=e197] [cursor=pointer]: This tutorial will help you to learn how to install Loom Desktop and...
+              - text: "Instructor : Shajaratul Yakin"
+              - text: "Medium of instruction : Bangla"
+          - link "View Course" [ref=e200] [cursor=pointer]:
+            - /url: course.php?cid=C16510
+    - navigation "Page navigation" [ref=e201]:
+      - list [ref=e202]:
+        - listitem [ref=e203]:
+          - link "":
+            - /url: "?page=1"
+            - generic: 
+        - listitem [ref=e204]:
+          - link "1" [ref=e205] [cursor=pointer]:
+            - /url: "?page=1"
+        - listitem [ref=e206]:
+          - link "":
+            - /url: "?page=1"
+            - generic: 
+  - contentinfo [ref=e207]:
+    - generic [ref=e208]:
+      - generic [ref=e210]:
+        - generic [ref=e211]: 
+        - heading "Address" [level=4] [ref=e212]
+        - paragraph [ref=e213]:
+          - text: "Registered Office : 179, Shah Kabir Mazar Road, Uttar Khan, Dhaka 1230"
+          - text: "Head Office : House 14, Road 13, Sector 03, Uttara Model Town, Dhaka 1230"
+      - generic [ref=e215]:
+        - link "logo" [ref=e216] [cursor=pointer]:
+          - /url: ../index.php
+          - img "logo" [ref=e217] [cursor=pointer]
+        - heading "iLearnX Technologies" [level=4] [ref=e218]
+        - generic [ref=e219]:
+          - link "About us" [ref=e220] [cursor=pointer]:
+            - /url: /view/about.php
+          - link "Terms and Conditions" [ref=e221] [cursor=pointer]:
+            - /url: /view/TermsAndConditions.php
+          - link "Privacy Policy" [ref=e222] [cursor=pointer]:
+            - /url: /view/PrivacyPolicy.php
+          - link "Refund Policy" [ref=e223] [cursor=pointer]:
+            - /url: /view/RefundPolicy.php
+      - generic [ref=e225]:
+        - generic [ref=e226]: 
+        - heading "Contact Us" [level=4] [ref=e227]
+        - paragraph [ref=e228]:
+          - link [ref=e229] [cursor=pointer]:
+            - /url: https://wa.me/+8801797174090
+            - generic [ref=e230] [cursor=pointer]: 
+          - link [ref=e231] [cursor=pointer]:
+            - /url: https://www.facebook.com/ilearnx.live
+            - generic [ref=e232] [cursor=pointer]: 
+          - link [ref=e233] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/ilearnx-technologies
+            - generic [ref=e234] [cursor=pointer]: 
+          - link "info@ilearnx.live" [ref=e235] [cursor=pointer]:
+            - /url: mailto:info@ilearnx.live?cc=ilearnx.live@gmail.com
+          - link "ilearnx.live@gmail.com" [ref=e236] [cursor=pointer]:
+            - /url: mailto:ilearnx.live@gmail.com?cc=ilearnx.live@gmail.com
+    - generic [ref=e238]:
+      - generic [ref=e239]: "Trade License: TRAD/DNCC/018559/2023"
+      - paragraph [ref=e241]:
+        - text: © 2023
+        - link "iLearnX" [ref=e242] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e243] [cursor=pointer]: iLearnX
+        - text: . All Rights Reserved.
+  - text: 
+  - navigation [ref=e244]:
+    - generic [ref=e246] [cursor=pointer]: x
+    - link "logo" [ref=e248] [cursor=pointer]:
+      - /url: ../index.php
+      - img "logo" [ref=e249] [cursor=pointer]
+    - list [ref=e250]:
+      - listitem [ref=e251]:
+        - link "Home" [ref=e252] [cursor=pointer]:
+          - /url: ../index.php
+      - listitem [ref=e253]:
+        - text: 
+        - link "Skills" [ref=e254] [cursor=pointer]:
+          - /url: ./courses.php?ccat=*
+      - listitem [ref=e255]:
+        - link "Courses" [ref=e256] [cursor=pointer]:
+          - /url: ./courses.php
+      - listitem [ref=e257]:
+        - text: 
+        - link "Internships" [ref=e258] [cursor=pointer]:
+          - /url: ./internship.php
+      - listitem [ref=e259]:
+        - link "About Us" [ref=e260] [cursor=pointer]:
+          - /url: ./about.php
+  - text: 
+  - link "" [ref=e261] [cursor=pointer]:
+    - /url: https://wa.me/+8801797174090
+    - generic [ref=e262] [cursor=pointer]: 
+```

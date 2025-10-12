@@ -9,6 +9,7 @@ export default class HomeObjects {
     this.liveCouresesPage = page.locator("//nav[@class='right_menu_togle']//a[normalize-space(text())='Live Courses']");
     this.intershipsPage = page.locator("//a[normalize-space(text())='Internships']");
     this.aboutUsPage = page.locator("//a[normalize-space(text())='About Us']");
+    this.humBurgerClose = page.locator("//span[@id='nav-close']");
     
 
 

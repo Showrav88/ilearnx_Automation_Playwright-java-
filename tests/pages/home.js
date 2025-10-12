@@ -34,5 +34,10 @@ export default class Home {
     
   
     }
+    async clickCrossHumBurger() {
+    await this.locate.humBurgerClose.waitFor({ state: 'visible' });
+    await this.locate.humBurgerClose.click();
+  }
+
     
 }
