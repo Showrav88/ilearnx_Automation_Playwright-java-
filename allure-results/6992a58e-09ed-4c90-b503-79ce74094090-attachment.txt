@@ -1,0 +1,2 @@
+✅ Courses header is visible
+✅ All course buttons clicked successfully!
