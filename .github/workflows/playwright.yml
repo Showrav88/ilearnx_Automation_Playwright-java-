@@ -1,4 +1,5 @@
 name: Playwright Tests
+
 on:
   push:
     branches: [ main, master ]
@@ -22,6 +23,10 @@ jobs:
 
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
+
+      # 🧹 Clear old Allure results before running new tests
+      - name: Clear old Allure results
+        run: rm -rf allure-results/ allure-report/
 
       - name: Run Playwright tests
         run: npx playwright test
